@@ -1,10 +1,9 @@
 import { render } from 'react-dom';
-import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import Counter from './components/Counter';
 
 render(
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>,
+    <div>
+        <Counter />
+    </div>,
     document.getElementById('root')
 );
