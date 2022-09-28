@@ -20,3 +20,46 @@ npm i -D @svgr/webpack@6.2.1
 npm i -D file-loader@6.2.0
 npm i react-i18next@11.15.5 i18next@21.6.11 --save
 npm i i18next-http-backend@1.3.2 i18next-browser-languagedetector@6.1.3 --save
+npm i @pmmmwh/react-refresh-webpack-plugin@0.5.5
+if(isDev){
+	plugin.push(new ReactRefreshWebpackPlugin());
+	plugin.push(new webpack.HotModuleReplacementPlugin());
+}
+
+трабла с переводчиком
+
+
+npm i -D babel-loader@8.2.3 @babel/core@7.17.5
+npm i -D @babel/preset-env@7.16.11
+npm i -D babel-plugin-i18next-extract@0.8.3		// лучше его не использовать, сомнительный, его свойство есть в babel.config.json и в babelLoader плагин 'i18next-extract' наверно лучше удалить
+
+
+npm i -D eslint@8.10.0
+npm init @eslint/config
+	// To check syntax, find problems, and enforce code style
+	// JavaScript module (import/export)
+	// React
+	// TypeScript yes
+	// Browser
+	// Use a popular style quide
+	// - 
+	// JavaScript
+// Запуск EsLint на проверку: eslint "**/*.{ts,tsx}"
+
+НЕ РАБОТАЕТ EsLint
+// Настройка ESLint, Prettier
+https://maxpfrontend.ru/vebinary/nastroyka-eslint-prettier-pre-commit-hook-create-react-app-visual-studio-code/
+
+npm i -D stylelint@14.5.3 stylelint-config-standard-scss@3.0.0
+npm i -D eslint-plugin-i18next@next@5.1.2
+
+npm i -D jest@27.5.1
+npm i -D @types/jest@27.4.1
+npm i -D @babel/preset-typescript@7.16.7
+jest --init 	// содаём базовый конфигурационный файл
+	// добавить в package.json y
+	// исползую TS y 
+	// jsdom
+	// добавть отчеты n
+	// babel 
+	// очищать моки посли каждого теста y
