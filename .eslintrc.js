@@ -61,9 +61,26 @@ module.exports = {
         'object-shorthand': 'off',
         'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: true }],
         'no-console': 'off',
-        'no-alert': 'off'
+        'no-alert': 'off',
+        'func-names': ['error', 'as-needed'],
+        'i18next/no-literal-string': [
+            'error',
+            {
+                markupOnly: true,
+                ignoreAttribute: ['data-testid', 'to']
+            }
+        ]
     },
     globals: {
         __IS_DEV__: true
-    }
+    },
+    // переопределение правил для определенных файлов
+    overrides: [
+        {
+            files: ['**/src/**/*.test.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off'
+            }
+        }
+    ]
 };

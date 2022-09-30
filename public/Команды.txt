@@ -63,9 +63,17 @@ jest --init 	// содаём базовый конфигурационный ф�
 	// добавть отчеты n
 	// babel 
 	// очищать моки посли каждого теста y
+// запустить один конкретный файл на тестирование: npm run jest classNames.test.ts
 
+npm i -D @testing-library/react@12.1.3
+npm i -D @testing-library/jest-dom@5.16.2
+npm i -D @babel/preset-react@7.16.7
+npm i -D identity-obj-proxy@3.0.0
 
 // посмотреть анализ бандла http://127.0.0.1:8888/
 // запускать просто npm start или npm run build:dev
 npm i -D webpack-bundle-analyzer@4.5.0
 npm i -D @types/webpack-bundle-analyzer@4.4.1
+
+// расширение для jest чтобы тестировать асинхронные компоненты
+npm i -D regenerator-runtime@0.13.9
