@@ -81,7 +81,8 @@ npm i -D regenerator-runtime@0.13.9
 // storybook
 npx sb init --builder webpack5
 
-// скриншотные тесты
+// скриншотные тесты	https://loki.js.org/getting-started.html
 npm i -D loki@0.28.1
 npx loki init --config ./config/storybook
-npx loki test
+npx loki test		// запуск тестов, предварительно запустив сторибук
+npx loki approve 	// скрипт для одобрения скриншотного теста
