@@ -32,6 +32,7 @@ if(isDev){
 npm i -D babel-loader@8.2.3 @babel/core@7.17.5
 npm i -D @babel/preset-env@7.16.11
 npm i -D babel-plugin-i18next-extract@0.8.3		// лучше его не использовать, сомнительный, его свойство есть в babel.config.json и в babelLoader плагин 'i18next-extract' наверно лучше удалить
+npm install eslint-plugin-i18next@latest --save-dev
 
 
 npm i -D eslint@8.10.0
