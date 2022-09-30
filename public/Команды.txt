@@ -77,3 +77,6 @@ npm i -D @types/webpack-bundle-analyzer@4.4.1
 
 // расширение для jest чтобы тестировать асинхронные компоненты
 npm i -D regenerator-runtime@0.13.9
+
+// storybook
+npx sb init --builder webpack5
