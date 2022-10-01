@@ -87,3 +87,5 @@ npm i -D loki@0.28.1
 npx loki init --config ./config/storybook
 npx loki test		// запуск тестов, предварительно запустив сторибук
 npx loki approve 	// скрипт для одобрения скриншотного теста
+npm i -D reg-cli@0.17.6		// для удобного сравнения скриншотных тестов
+				// использование test:ui:report
