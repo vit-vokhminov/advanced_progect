@@ -89,3 +89,7 @@ npx loki test		// запуск тестов, предварительно зап
 npx loki approve 	// скрипт для одобрения скриншотного теста
 npm i -D reg-cli@0.17.6		// для удобного сравнения скриншотных тестов
 				// использование test:ui:report
+
+
+// плагин контролирует неоюъодимость обёртки в useCallback
+npm i eslint-plugin-react-hooks -D
