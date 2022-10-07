@@ -95,3 +95,8 @@ npm i -D reg-cli@0.17.6		// для удобного сравнения скри�
 npm i eslint-plugin-react-hooks -D
 
 npm install @reduxjs/toolkit@1.8.0 react-redux@7.2.6
+
+npm install -g json-server
+npm i -D json-server
+// Start JSON Server
+json-server --watch ./json-server/db.json --port 8000
