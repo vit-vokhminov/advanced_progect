@@ -93,3 +93,5 @@ npm i -D reg-cli@0.17.6		// для удобного сравнения скри�
 
 // плагин контролирует неоюъодимость обёртки в useCallback
 npm i eslint-plugin-react-hooks -D
+
+npm install @reduxjs/toolkit@1.8.0 react-redux@7.2.6
