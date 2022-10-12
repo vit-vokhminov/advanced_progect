@@ -100,3 +100,7 @@ npm install -g json-server
 npm i -D json-server
 // Start JSON Server
 json-server --watch ./json-server/db.json --port 8000
+
+
+// husky предназначен для прекоммит хуков гита
+npx husky-init
