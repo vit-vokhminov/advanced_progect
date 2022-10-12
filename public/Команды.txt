@@ -103,4 +103,5 @@ json-server --watch ./json-server/db.json --port 8000
 
 
 // husky предназначен для прекоммит хуков гита
+npm i -D husky
 npx husky-init
