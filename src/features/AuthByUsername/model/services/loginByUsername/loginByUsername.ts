@@ -7,7 +7,9 @@ interface LoginByUsernameProps {
     username: string;
     password: string;
 }
-
+// User то что возвращает
+// LoginByUsernameProps аргументы
+// rejectValue: string } в случае ошибки, возвращает строку
 export const loginByUsername = createAsyncThunk<User, LoginByUsernameProps, { rejectValue: string }>(
     'login/loginByUsername',
     async (authData, thunkAPI) => {
