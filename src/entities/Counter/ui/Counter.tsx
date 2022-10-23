@@ -19,16 +19,18 @@ export const Counter = () => {
 
     return (
         <div>
-            <h1 data-testid='value-title'>{counterValue}</h1>
-            <Button
-                data-testid='decrement-btn'
-                onClick={decrement}>
-                {t('decrement')}
-            </Button>
+            <h1 data-testid="value-title">{counterValue}</h1>
             <Button
                 onClick={increment}
-                data-testid='increment-btn'>
+                data-testid="increment-btn"
+            >
                 {t('increment')}
+            </Button>
+            <Button
+                data-testid="decrement-btn"
+                onClick={decrement}
+            >
+                {t('decrement')}
             </Button>
         </div>
     );

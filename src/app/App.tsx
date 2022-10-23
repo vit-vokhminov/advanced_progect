@@ -7,7 +7,7 @@ import { Sidebar } from 'widgets/Sidebar';
 import { useDispatch } from 'react-redux';
 import { userActions } from 'entities/User';
 
-const App = () => {
+function App() {
     const { theme } = useTheme();
     const dispatch = useDispatch();
 
@@ -17,15 +17,15 @@ const App = () => {
 
     return (
         <div className={classNames('app', {}, [theme])}>
-            <Suspense fallback=''>
+            <Suspense fallback="">
                 <Navbar />
-                <div className='content-page'>
+                <div className="content-page">
                     <Sidebar />
                     <AppRouter />
                 </div>
             </Suspense>
         </div>
     );
-};
+}
 
 export default App;

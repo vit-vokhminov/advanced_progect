@@ -1,15 +1,9 @@
-type Mods = Record<string, boolean | string | undefined>;
+export type Mods = Record<string, boolean | string | undefined>
 
-/*
-'app', {}, [theme]
-@ cls   строка
-@ mods  условия
-@ additional    массив переменных со значением
-*/
 export function classNames(
     cls: string,
     mods: Mods = {},
-    additional: any[] = []
+    additional: Array<string | undefined> = [],
 ): string {
     return [
         cls,
@@ -17,5 +11,6 @@ export function classNames(
         ...Object.entries(mods)
             .filter(([_, value]) => Boolean(value))
             .map(([className]) => className),
-    ].join(' ');
+    ]
+        .join(' ');
 }

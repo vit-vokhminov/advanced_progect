@@ -9,7 +9,7 @@ export enum AppRoutes {
     ABOUT = 'about',
     PROFILE = 'profile',
     // last
-    NOT_FOUND = 'not_found'
+    NOT_FOUND = 'not_found',
 }
 
 export const RoutePath: Record<AppRoutes, string> = {
@@ -17,25 +17,25 @@ export const RoutePath: Record<AppRoutes, string> = {
     [AppRoutes.ABOUT]: '/about',
     [AppRoutes.PROFILE]: '/profile',
     // последний
-    [AppRoutes.NOT_FOUND]: '*'
+    [AppRoutes.NOT_FOUND]: '*',
 };
 
 export const routeConfig: Record<AppRoutes, RouteProps> = {
     [AppRoutes.MAIN]: {
         path: RoutePath.main,
-        element: <MainPage />
+        element: <MainPage />,
     },
     [AppRoutes.ABOUT]: {
         path: RoutePath.about,
-        element: <AboutPage />
+        element: <AboutPage />,
     },
     [AppRoutes.PROFILE]: {
         path: RoutePath.profile,
-        element: <ProfilePage />
+        element: <ProfilePage />,
     },
     // last
     [AppRoutes.NOT_FOUND]: {
         path: RoutePath.not_found,
-        element: <NotFoundPage />
-    }
+        element: <NotFoundPage />,
+    },
 };

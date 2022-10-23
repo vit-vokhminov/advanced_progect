@@ -10,6 +10,3 @@ export function renderWithTranslation(component: ReactNode) {
         </I18nextProvider>,
     );
 }
-
-// в index.tsx мы импортировали интенс i18next: import './shared/config/i18n/i18n';
-// а для тестов берём изолированный компонент без инстанса, в качестве этого инстанса будет выступать этот hoc

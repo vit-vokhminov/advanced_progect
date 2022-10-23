@@ -5,7 +5,7 @@ import { loginByUsername } from '../services/loginByUsername/loginByUsername';
 const initialState: LoginSchema = {
     isLoading: false,
     username: '',
-    password: ''
+    password: '',
 };
 
 export const loginSlice = createSlice({
@@ -17,7 +17,7 @@ export const loginSlice = createSlice({
         },
         setPassword: (state, action: PayloadAction<string>) => {
             state.password = action.payload;
-        }
+        },
     },
     extraReducers: (builder) => {
         builder
@@ -25,14 +25,14 @@ export const loginSlice = createSlice({
                 state.error = undefined;
                 state.isLoading = true;
             })
-            .addCase(loginByUsername.fulfilled, (state, action) => {
+            .addCase(loginByUsername.fulfilled, (state) => {
                 state.isLoading = false;
             })
             .addCase(loginByUsername.rejected, (state, action) => {
                 state.isLoading = false;
                 state.error = action.payload;
             });
-    }
+    },
 });
 
 // Action creators are generated for each case reducer function
