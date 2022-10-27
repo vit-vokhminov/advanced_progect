@@ -14,10 +14,10 @@ export const Avatar = ({
 }: AvatarProps) => {
     const mods: Mods = {};
 
-    const styles = useMemo<CSSProperties>(() => {return {
+    const styles = useMemo<CSSProperties>(() => ({
         width: size || 100,
         height: size || 100,
-    }}, [size]);
+    }), [size]);
 
     return (
         <img

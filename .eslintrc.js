@@ -108,7 +108,8 @@ module.exports = {
     },
     globals: {
         __IS_DEV__: true,
-        __API__: true
+        __API__: true,
+        __PROJECT__: true
     },
     // переопределение правил для определенных файлов
     overrides: [
