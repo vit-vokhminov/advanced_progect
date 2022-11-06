@@ -107,3 +107,4 @@ npm i -D husky
 npx husky-init
 
 npm i axios
+npm i -D concurrently
