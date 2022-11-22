@@ -115,3 +115,10 @@ npm install copy-webpack-plugin --save-dev
 // разбирался с концепцией virtualized потом выпилил т.к. есть https://github.com/bvaughn/react-window
 npm i -D react-virtualized
 npm i -D @types/react-virtualized
+
+
+// устаналиваю плагин для проверки относительных путей
+npm i -D eslint-plugin-vit-vokhminov-fsd
+// синтаксическое дерево
+https://astexplorer.net/
+https://habr.com/ru/company/sovcombank_technologies/blog/686662/

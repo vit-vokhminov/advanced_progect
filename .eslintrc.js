@@ -17,7 +17,7 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module'
     },
-    plugins: ['react', '@typescript-eslint', 'i18next', 'prettier', 'react-hooks'],
+    plugins: ['react', '@typescript-eslint', 'i18next', 'prettier', 'react-hooks', 'vit-vokhminov-fsd'],
     rules: {
         'react/jsx-filename-extension': [
             2,
@@ -106,6 +106,7 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
+        'vit-vokhminov-fsd/path-checker': 'error'
     },
     globals: {
         __IS_DEV__: true,
