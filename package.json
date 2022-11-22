@@ -50,6 +50,7 @@
         "@types/react": "^17.0.39",
         "@types/react-dom": "^17.0.11",
         "@types/react-router-dom": "^5.3.3",
+        "@types/react-virtualized": "^9.21.21",
         "@types/webpack": "^5.28.0",
         "@types/webpack-bundle-analyzer": "^4.4.1",
         "@types/webpack-dev-server": "^4.7.2",
@@ -95,6 +96,7 @@
         "webpack-dev-server": "^4.7.4"
     },
     "dependencies": {
+        "@headlessui/react": "^1.7.4",
         "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
         "@reduxjs/toolkit": "^1.8.0",
         "axios": "^0.26.1",

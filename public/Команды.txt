@@ -116,9 +116,16 @@ npm install copy-webpack-plugin --save-dev
 npm i -D react-virtualized
 npm i -D @types/react-virtualized
 
-
 // устаналиваю плагин для проверки относительных путей
 npm i -D eslint-plugin-vit-vokhminov-fsd
 // синтаксическое дерево
 https://astexplorer.net/
 https://habr.com/ru/company/sovcombank_technologies/blog/686662/
+
+
+// хеадлес библиотеки
+https://headlessui.com/react/transition
+https://react-spectrum.adobe.com/react-aria/useFocus.html
+https://floating-ui.com/
+
+npm install @headlessui/react
