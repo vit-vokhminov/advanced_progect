@@ -111,3 +111,7 @@ npm i -D concurrently
 
 
 npm install copy-webpack-plugin --save-dev
+
+// разбирался с концепцией virtualized потом выпилил т.к. есть https://github.com/bvaughn/react-window
+npm i -D react-virtualized
+npm i -D @types/react-virtualized
