@@ -129,3 +129,6 @@ https://react-spectrum.adobe.com/react-aria/useFocus.html
 https://floating-ui.com/
 
 npm install @headlessui/react
+
+// репортер для тестов
+npm install jest-html-reporters --save-dev
