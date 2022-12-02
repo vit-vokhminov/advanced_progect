@@ -1,3 +1,5 @@
+--force это принудительная установка пакета
+
 npm run build:prod
 npm run build:dev
 
@@ -148,3 +150,8 @@ npm i -D storybook-addon-mock
 // плагин для проверки кольцевых зависимостей
 npm i -D circular-dependency-plugin
 npm i -D @types/circular-dependency-plugin
+
+
+npm i -D @babel/plugin-transform-runtime@7.18.10
+npm i -D @babel/plugin-transform-typescript@7.18.12
+npm i -D fork-ts-checker-webpack-plugin
