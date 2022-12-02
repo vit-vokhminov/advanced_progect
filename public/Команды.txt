@@ -144,3 +144,7 @@ npm i @types/react@18.0.17 @types/react-dom@18.0.6
 
 
 npm i -D storybook-addon-mock
+
+// плагин для проверки кольцевых зависимостей
+npm i -D circular-dependency-plugin
+npm i -D @types/circular-dependency-plugin
