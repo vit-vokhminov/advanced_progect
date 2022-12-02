@@ -132,3 +132,6 @@ npm install @headlessui/react
 
 // репортер для тестов
 npm install jest-html-reporters --save-dev
+
+
+npm install @testing-library/user-event --save-dev
