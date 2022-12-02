@@ -135,3 +135,12 @@ npm install jest-html-reporters --save-dev
 
 
 npm install @testing-library/user-event --save-dev
+
+// обновить до последней версии
+npm i react@latest
+
+npm i react@18.2.0 react-dom@18.2.0
+npm i @types/react@18.0.17 @types/react-dom@18.0.6
+
+
+npm i -D storybook-addon-mock
