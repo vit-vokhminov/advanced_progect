@@ -172,3 +172,8 @@ npm i -D ts-morph@16.0.0
 
 // можно указать какие подифилы добавлять при сборке проекта для поддержки разных/старых браузеров
 // https://github.com/browserslist/browserslist
+
+
+// https://vitejs.dev/
+npm i -D @vitejs/plugin-react@2.1.0 vite@3.1.0
+npm i -D vite-plugin-svgr@2.2.1
