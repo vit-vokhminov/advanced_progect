@@ -168,3 +168,7 @@ npm i @use-gesture/react@10.2.19		// библиотека для всяких д
 // можно глобально рефакторить проект, например scripts/updateImports.ts проставляет алиасы @/ в импорты
 npm i -D ts-morph@16.0.0
 // запуск скрипта ts-node .\scripts\updateImports.ts
+
+
+// можно указать какие подифилы добавлять при сборке проекта для поддержки разных/старых браузеров
+// https://github.com/browserslist/browserslist
