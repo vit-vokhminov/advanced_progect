@@ -156,5 +156,9 @@ npm i -D @babel/plugin-transform-runtime@7.18.10
 npm i -D @babel/plugin-transform-typescript@7.18.12
 npm i -D fork-ts-checker-webpack-plugin
 
-
+// определение через userAgent мобилки или десктопа: BrowserView, MobileView
 npm i react-device-detect@2.2.2
+
+// библиотека для перетаскивания, свайпов и тд
+npm i @react-spring/web@9.5.2		// библиотека для анимаций
+npm i @use-gesture/react@10.2.19		// библиотека для всяких драг состояний
