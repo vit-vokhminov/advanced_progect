@@ -162,3 +162,9 @@ npm i react-device-detect@2.2.2
 // библиотека для перетаскивания, свайпов и тд
 npm i @react-spring/web@9.5.2		// библиотека для анимаций
 npm i @use-gesture/react@10.2.19		// библиотека для всяких драг состояний
+
+
+// предназначена для изменения TS кода	https://ts-morph.com/
+// можно глобально рефакторить проект, например scripts/updateImports.ts проставляет алиасы @/ в импорты
+npm i -D ts-morph@16.0.0
+// запуск скрипта ts-node .\scripts\updateImports.ts
