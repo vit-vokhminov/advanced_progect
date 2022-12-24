@@ -107,7 +107,13 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'vit-vokhminov-fsd/path-checker': ['error', { alias: '@' }],
-        'vit-vokhminov-fsd/public-api-imports': ['error', { alias: '@' }],
+        'vit-vokhminov-fsd/public-api-imports': [
+            'error',
+            {
+                alias: '@',
+                testFilesPatterns: ['**/*.test.*', '**/*.story.*', '**/StoreDecorator.tsx'],
+            },
+        ],
     },
     globals: {
         __IS_DEV__: true,
