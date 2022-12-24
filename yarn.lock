@@ -7138,10 +7138,10 @@
     "semver" "^6.3.0"
     "string.prototype.matchall" "^4.0.6"
 
-"eslint-plugin-ulbi-tv-plugin@^0.0.1":
-  "integrity" "sha512-awxUVm2mxJQ9h3DVaZQuikJEkNG4KchgS80frAQ/AeUYGFYyJQqPGWnRqyETfGypbWCQiaRb/nFWuct83Q3BEw=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-ulbi-tv-plugin/-/eslint-plugin-ulbi-tv-plugin-0.0.1.tgz"
-  "version" "0.0.1"
+"eslint-plugin-vit-vokhminov-fsd@^0.0.5":
+  "integrity" "sha512-8XoCI1vuPDXjPCM066CT04t3S9XtMEWVsZZkvL0ggnnhniv2cU+lHimz5R8/aa7ar7o0Vt3aTeKr3oaeNq2QaA=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-vit-vokhminov-fsd/-/eslint-plugin-vit-vokhminov-fsd-0.0.5.tgz"
+  "version" "0.0.5"
   dependencies:
     "requireindex" "^1.2.0"
 

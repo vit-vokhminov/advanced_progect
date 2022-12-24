@@ -106,7 +106,7 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
-        'vit-vokhminov-fsd/path-checker': 'error'
+        'vit-vokhminov-fsd/path-checker': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
