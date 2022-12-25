@@ -7254,6 +7254,13 @@
     "semver" "^6.3.0"
     "string.prototype.matchall" "^4.0.6"
 
+"eslint-plugin-unused-imports@^2.0.0":
+  "integrity" "sha512-3APeS/tQlTrFa167ThtP0Zm0vctjr4M44HMpeg1P4bK6wItarumq0Ma82xorMKdFsWpphQBlRPzw/pxiVELX1A=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-unused-imports/-/eslint-plugin-unused-imports-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "eslint-rule-composer" "^0.3.0"
+
 "eslint-plugin-vit-vokhminov-fsd@^0.0.8":
   "integrity" "sha512-U1f7OECV5s00uZvDXclB5VMXINlQ69U3Yvj9S2U7Zdu/gs7ShjfxXpYeB2HP8QSNZpFd/VnQpsotaZP/fLgtEA=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-vit-vokhminov-fsd/-/eslint-plugin-vit-vokhminov-fsd-0.0.8.tgz"
@@ -7262,6 +7269,11 @@
     "generator-eslint" "^4.1.0"
     "micromatch" "^4.0.5"
     "requireindex" "^1.2.0"
+
+"eslint-rule-composer@^0.3.0":
+  "integrity" "sha512-bt+Sh8CtDmn2OajxvNO+BX7Wn4CIWMpTRm3MaiKPCQcnnlm0CS2mhui6QaoeQugs+3Kj2ESKEEGJUdVafwhiCg=="
+  "resolved" "https://registry.npmjs.org/eslint-rule-composer/-/eslint-rule-composer-0.3.0.tgz"
+  "version" "0.3.0"
 
 "eslint-scope@^4.0.3":
   "integrity" "sha512-p7VutNr1O/QrxysMo3E45FjYDTeXBy0iTltPFNSqKAIfjDSXC+4dj+qfyuD8bfAXrW/y6lW3O76VaYNPKfpKrg=="

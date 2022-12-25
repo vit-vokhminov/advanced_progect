@@ -182,3 +182,12 @@ npm i -D vite-plugin-svgr@2.2.1
 
 // запуск скриптов в папке scripts
 ts-node ./scripts/refactoring/createPublicApiForSharedUi.ts
+
+
+
+// плагин на не используемые импорты
+npm i -D eslint-plugin-unused-imports@2.0.0
+
+// рекомендация, настроить порядок импортов
+// https://www.npmjs.com/package/eslint-plugin-import
+npm i -D eslint-plugin-import

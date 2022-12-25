@@ -17,7 +17,7 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module'
     },
-    plugins: ['react', '@typescript-eslint', 'i18next', 'prettier', 'react-hooks', 'vit-vokhminov-fsd'],
+    plugins: ['react', '@typescript-eslint', 'i18next', 'prettier', 'react-hooks', 'vit-vokhminov-fsd', 'unused-imports'],
     rules: {
         'react/jsx-filename-extension': [
             2,
@@ -28,6 +28,7 @@ module.exports = {
         'import/no-unresolved': 'off',
         // использовать именованый экспорт
         'import/prefer-default-export': 'off',
+        'unused-imports/no-unused-imports': 'error',
         // переменная ни где не используется - ворнинг
         'no-unused-vars': 'off',
         // нет дефолтного значения
