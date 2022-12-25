@@ -191,3 +191,8 @@ npm i -D eslint-plugin-unused-imports@2.0.0
 // рекомендация, настроить порядок импортов
 // https://www.npmjs.com/package/eslint-plugin-import
 npm i -D eslint-plugin-import
+
+
+// переключать цвет заднего фона в storybook
+// https://storybook.js.org/addons/@dhruvkb/storybook-addon-themes
+npm i -D storybook-addon-themes@6.1.0
