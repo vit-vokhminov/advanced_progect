@@ -107,6 +107,13 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'vit-vokhminov-fsd/path-checker': ['error', { alias: '@' }],
+        'vit-vokhminov-fsd/layer-imports': [
+            'error',
+            {
+                alias: '@',
+                ignoreImportPatterns: ['**/StoreProvider', '**/testing'],
+            },
+        ],
         'vit-vokhminov-fsd/public-api-imports': [
             'error',
             {

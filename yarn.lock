@@ -7254,10 +7254,10 @@
     "semver" "^6.3.0"
     "string.prototype.matchall" "^4.0.6"
 
-"eslint-plugin-vit-vokhminov-fsd@^0.0.7":
-  "integrity" "sha512-2dUnTOlSbfkA4ua3lcoeYprMAG7W3CvSen1yOvMgPQux7Rosnb1meNDMv9suYbLy7ALDvuPX5nfpr/lmFuoqsQ=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-vit-vokhminov-fsd/-/eslint-plugin-vit-vokhminov-fsd-0.0.7.tgz"
-  "version" "0.0.7"
+"eslint-plugin-vit-vokhminov-fsd@^0.0.8":
+  "integrity" "sha512-U1f7OECV5s00uZvDXclB5VMXINlQ69U3Yvj9S2U7Zdu/gs7ShjfxXpYeB2HP8QSNZpFd/VnQpsotaZP/fLgtEA=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-vit-vokhminov-fsd/-/eslint-plugin-vit-vokhminov-fsd-0.0.8.tgz"
+  "version" "0.0.8"
   dependencies:
     "generator-eslint" "^4.1.0"
     "micromatch" "^4.0.5"
