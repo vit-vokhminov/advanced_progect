@@ -200,3 +200,9 @@ npm i -D storybook-addon-themes@6.1.0
 
 // обновим testing-library после миграции на react 18
 npm i -D @testing-library/react@13.4.0
+
+
+// https://www.npmjs.com/package/lint-staged
+// библиотека позволяет прогонять линтером только те файлы, которые были изменены
+// используется совместно м husky
+npm i -D lint-staged@13.0.3
