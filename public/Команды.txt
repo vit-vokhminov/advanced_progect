@@ -206,3 +206,10 @@ npm i -D @testing-library/react@13.4.0
 // библиотека позволяет прогонять линтером только те файлы, которые были изменены
 // используется совместно м husky
 npm i -D lint-staged@13.0.3
+
+
+
+// e2e 
+// https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn
+npm i -D cypress
+npm run test:e2e
