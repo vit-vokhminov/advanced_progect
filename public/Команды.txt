@@ -196,3 +196,7 @@ npm i -D eslint-plugin-import
 // переключать цвет заднего фона в storybook
 // https://storybook.js.org/addons/@dhruvkb/storybook-addon-themes
 npm i -D storybook-addon-themes@6.1.0
+
+
+// обновим testing-library после миграции на react 18
+npm i -D @testing-library/react@13.4.0
