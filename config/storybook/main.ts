@@ -3,24 +3,22 @@ import path from 'path';
 import { buildCssLoader } from '../build/loaders/buildCssLoader';
 
 export default {
-    stories: [
-        '../../src/**/*.stories.@(js|jsx|ts|tsx)',
-    ],
+    stories: ['../../src/**/*.stories.@(js|jsx|ts|tsx)'],
     addons: [
         '@storybook/addon-links',
         {
             name: '@storybook/addon-essentials',
             options: {
-                backgrounds: false,
-            },
+                backgrounds: false
+            }
         },
         '@storybook/addon-interactions',
         'storybook-addon-mock',
-        'storybook-addon-themes',
+        'storybook-addon-themes'
     ],
     framework: '@storybook/react',
     core: {
-        builder: 'webpack5',
+        builder: 'webpack5'
     },
     webpackFinal: async (config: Configuration) => {
         const paths = {
@@ -29,13 +27,13 @@ export default {
             entry: '',
             src: path.resolve(__dirname, '..', '..', 'src'),
             locales: '',
-            buildLocales: '',
+            buildLocales: ''
         };
         config!.resolve!.modules!.push(paths.src);
         config!.resolve!.extensions!.push('.ts', '.tsx');
         config!.resolve!.alias = {
             ...config!.resolve!.alias,
-            '@': paths.src,
+            '@': paths.src
         };
 
         // @ts-ignore
@@ -49,16 +47,18 @@ export default {
 
         config!.module!.rules.push({
             test: /\.svg$/,
-            use: ['@svgr/webpack'],
+            use: ['@svgr/webpack']
         });
         config!.module!.rules.push(buildCssLoader(true));
 
-        config!.plugins!.push(new DefinePlugin({
-            __IS_DEV__: JSON.stringify(true),
-            __API__: JSON.stringify('https://testapi.ru'),
-            __PROJECT__: JSON.stringify('storybook'),
-        }));
+        config!.plugins!.push(
+            new DefinePlugin({
+                __IS_DEV__: JSON.stringify(true),
+                __API__: JSON.stringify('https://testapi.ru'),
+                __PROJECT__: JSON.stringify('storybook')
+            })
+        );
         // Return the altered config
         return config;
-    },
+    }
 };

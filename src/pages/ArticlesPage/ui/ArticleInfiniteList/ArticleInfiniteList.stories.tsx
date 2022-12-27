@@ -7,8 +7,8 @@ export default {
     title: 'pages/ArticlesPage/ArticleInfiniteList',
     component: ArticleInfiniteList,
     argTypes: {
-        backgroundColor: { control: 'color' },
-    },
+        backgroundColor: { control: 'color' }
+    }
 } as ComponentMeta<typeof ArticleInfiniteList>;
 
 const Template: ComponentStory<typeof ArticleInfiniteList> = (args) => <ArticleInfiniteList {...args} />;

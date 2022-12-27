@@ -24,6 +24,6 @@ root.render(
                 </ThemeProvider>
             </ErrorBoundary>
         </StoreProvider>
-    </BrowserRouter>,
+    </BrowserRouter>
 );
 export { Theme } from '@/shared/const/theme';

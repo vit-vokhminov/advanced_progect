@@ -9,8 +9,8 @@ export default {
     title: 'features/ArticleRecommendationsList',
     component: ArticleRecommendationsList,
     argTypes: {
-        backgroundColor: { control: 'color' },
-    },
+        backgroundColor: { control: 'color' }
+    }
 } as ComponentMeta<typeof ArticleRecommendationsList>;
 
 const Template: ComponentStory<typeof ArticleRecommendationsList> = (args) => <ArticleRecommendationsList {...args} />;
@@ -24,7 +24,7 @@ const article: Article = {
     blocks: [],
     type: [],
     title: '123',
-    subtitle: 'asfsa',
+    subtitle: 'asfsa'
 };
 
 export const Normal = Template.bind({});
@@ -39,8 +39,8 @@ Normal.parameters = {
             response: [
                 { ...article, id: '1' },
                 { ...article, id: '2' },
-                { ...article, id: '3' },
-            ],
-        },
-    ],
+                { ...article, id: '3' }
+            ]
+        }
+    ]
 };

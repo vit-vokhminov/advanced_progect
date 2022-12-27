@@ -8,8 +8,8 @@ export default {
     title: 'features/editableProfileCard/EditableProfileCardHeader',
     component: EditableProfileCardHeader,
     argTypes: {
-        backgroundColor: { control: 'color' },
-    },
+        backgroundColor: { control: 'color' }
+    }
 } as ComponentMeta<typeof EditableProfileCardHeader>;
 
 const Template: ComponentStory<typeof EditableProfileCardHeader> = (args) => <EditableProfileCardHeader {...args} />;

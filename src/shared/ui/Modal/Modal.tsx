@@ -17,29 +17,19 @@ interface ModalProps {
 const ANIMATION_DELAY = 300;
 
 export const Modal = (props: ModalProps) => {
-    const {
-        className,
-        children,
-        isOpen,
-        onClose,
-        lazy,
-    } = props;
+    const { className, children, isOpen, onClose, lazy } = props;
 
-    const {
-        close,
-        isClosing,
-        isMounted,
-    } = useModal({
+    const { close, isClosing, isMounted } = useModal({
         animationDelay: ANIMATION_DELAY,
         onClose,
-        isOpen,
+        isOpen
     });
 
     const { theme } = useTheme();
 
     const mods: Mods = {
         [cls.opened]: isOpen,
-        [cls.isClosing]: isClosing,
+        [cls.isClosing]: isClosing
     };
 
     if (lazy && !isMounted) {
@@ -50,11 +40,7 @@ export const Modal = (props: ModalProps) => {
         <Portal>
             <div className={classNames(cls.Modal, mods, [className, theme, 'app_modal'])}>
                 <Overlay onClick={close} />
-                <div
-                    className={cls.content}
-                >
-                    {children}
-                </div>
+                <div className={cls.content}>{children}</div>
             </div>
         </Portal>
     );

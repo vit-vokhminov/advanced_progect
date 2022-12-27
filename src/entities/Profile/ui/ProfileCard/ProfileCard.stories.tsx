@@ -9,8 +9,8 @@ export default {
     title: 'entities/ProfileCard',
     component: ProfileCard,
     argTypes: {
-        backgroundColor: { control: 'color' },
-    },
+        backgroundColor: { control: 'color' }
+    }
 } as ComponentMeta<typeof ProfileCard>;
 
 const Template: ComponentStory<typeof ProfileCard> = (args) => <ProfileCard {...args} />;
@@ -25,16 +25,16 @@ Primary.args = {
         first: 'asd',
         city: 'asf',
         currency: Currency.USD,
-        avatar,
-    },
+        avatar
+    }
 };
 
 export const withError = Template.bind({});
 withError.args = {
-    error: 'true',
+    error: 'true'
 };
 
 export const Loading = Template.bind({});
 Loading.args = {
-    isLoading: true,
+    isLoading: true
 };

@@ -79,6 +79,7 @@ module.exports = {
                 code: 999999999999999
             }
         ],
+        'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
         'object-shorthand': 'off',
         'arrow-body-style': [
             'error',

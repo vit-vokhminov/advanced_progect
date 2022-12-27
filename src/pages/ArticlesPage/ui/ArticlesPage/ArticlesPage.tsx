@@ -18,7 +18,7 @@ interface ArticlesPageProps {
 }
 
 const reducers: ReducersList = {
-    articlesPage: articlesPageReducer,
+    articlesPage: articlesPageReducer
 };
 
 const ArticlesPage = (props: ArticlesPageProps) => {
@@ -37,11 +37,7 @@ const ArticlesPage = (props: ArticlesPageProps) => {
 
     return (
         <DynamicModuleLoader reducers={reducers} removeAfterUnmount={false}>
-            <Page
-                data-testid="ArticlesPage"
-                onScrollEnd={onLoadNextPart}
-                className={classNames(cls.ArticlesPage, {}, [className])}
-            >
+            <Page data-testid='ArticlesPage' onScrollEnd={onLoadNextPart} className={classNames(cls.ArticlesPage, {}, [className])}>
                 <ArticlesPageFilters />
                 <ArticleInfiniteList className={cls.list} />
             </Page>

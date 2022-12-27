@@ -213,3 +213,26 @@ npm i -D lint-staged@13.0.3
 // https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn
 npm i -D cypress
 npm run test:e2e
+
+
+// eslint это статический анализ кода на соответствие каким то правилам
+// prettier отвечает за форматирование кода
+npm i -D --save-exact prettier@2.7.1
+// для интеграции prettier с eslint
+npm install --save-dev eslint-config-prettier
+
+// https://prettier.io/docs/en/options.html
+{
+    "singleQuote": true,	// Одинарные кавычки вместо двойных.
+    "jsxSingleQuote": true,	// Одинарные кавычки вместо двойных кавычек в JSX.
+    "bracketSameLine": false,	// Закрывающий тег > поместит на новой строке
+    "arrowParens": "always",	// Аргументы в стрелочных функция обернёт в ()
+    "tabWidth": 4,	// Количество пробелов для каждого отступа
+    "semi": true,	// Точки с запятой в конце операторов.
+    "useTabs": false,	// Делайте отступы в строках с помощью табуляции вместо пробелов.
+    "trailingComma": "none",	// Конечные запятые везде, где это возможно
+    "bracketSpacing": true,		// Пробелы в { }
+    "printWidth": 140,	// длина строки
+}
+// в eslint добавить правило 'react/jsx-max-props-per-line': ['error', { maximum: 4 }],
+// если пропсов будет больше 4, тогда делать перенос пропсов на новую строку
