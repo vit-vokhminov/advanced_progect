@@ -7510,10 +7510,10 @@
   dependencies:
     "eslint-rule-composer" "^0.3.0"
 
-"eslint-plugin-vit-vokhminov-fsd@^0.0.10":
-  "integrity" "sha512-289TCcDwZ/zHFTAHjJi2Ixy/plV1WZF4UkPqA5lir4j1XvLKEEPRuI3Us7p2js736/A6QvgljHu1KUw3XJfO3Q=="
-  "resolved" "https://registry.npmjs.org/eslint-plugin-vit-vokhminov-fsd/-/eslint-plugin-vit-vokhminov-fsd-0.0.10.tgz"
-  "version" "0.0.10"
+"eslint-plugin-vit-vokhminov-fsd@^0.0.11":
+  "integrity" "sha512-YzAcN/dJJ4vEksIhFYeHtroDZE7uVMFY7VjSScDbuU+e4aSDfqp4/9bGNzQLV0FFSYAd1QTd9lsoh/KBBLaJJQ=="
+  "resolved" "https://registry.npmjs.org/eslint-plugin-vit-vokhminov-fsd/-/eslint-plugin-vit-vokhminov-fsd-0.0.11.tgz"
+  "version" "0.0.11"
   dependencies:
     "generator-eslint" "^4.1.0"
     "micromatch" "^4.0.5"
